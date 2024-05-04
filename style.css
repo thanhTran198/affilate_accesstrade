@@ -1,0 +1,83 @@
+*, :after, :before, html  {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen';
+    /* font-family: 'Be Vietnam Pro', sans-serif ; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+article h2 {
+    color: #333;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+.img_100{
+    width: 100%;
+}
+
+ul {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+ul li{
+    padding: 0 15px;
+}
+
+h2,h3,h4{
+    margin: 10px 0;
+}
+
+.font_italic{
+    font-style: italic
+}
+
+.a_button {
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    padding:10px ;
+    background-color: green;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
